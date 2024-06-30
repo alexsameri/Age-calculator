@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age calculator</title>
+</head>
+<body>
+    <form action="/calculator" method="POST">
+        <label for="birth_date">Birth Date:</label>
+        <input type="number" name="birth_date" id="birth_date" placeholder="Day" min="1" max="31" required><br><br>
+        <label for="birth_month">Birth Month</label>
+        <input type="number" name="birth_month" id="birth_month" placeholder="Month" min="1" max="12" required><br><br>
+        <label for="birth_year">Birth Year</label>
+        <input type="number" name="birth_year" id="birth_year" placeholder="Year" min="1900" max="2099"><br><br>
+        <button type="submit">Calculate Age</button>
+    </form>
+</body>
+</html>
